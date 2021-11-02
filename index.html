@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>Youtube?</title>
+
+        <meta name="author" content="Jonathan Park">
+        <meta name="description" content="This is an imitation of youtube's video player page.">
+
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="">YouTube</a>
+            </nav>
+
+            <label for="search" class="sr-only">Search</label>
+            <input type="text" id="search" placeholder="  Search">
+        </header>
+
+        <div class="main-container">
+            <main>
+                <div class="video-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/lJIrF4YjHfQ" 
+                        title="YouTube video player" frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen>
+                    </iframe>
+                </div>
+    
+                <div class="video-details-container">
+                    <p class="video-title">Embed videos and playlists</p>
+                    <p class="video-view-count">326,488 views</p>
+                    <p class="video-description">To learn more please visit the YouTube Help Center: https://www.youtube.com/help</p>
+                </div>
+            </main>
+    
+            <div class="video-suggestions-container">
+                <aside>
+                    <ul>
+                        <li>
+                            <img src="images/thumbnail1.jpg" alt="">
+                            <p>Suggested Video 1</p>
+                        </li>
+                        <li>
+                            <img src="images/thumbnail2.jpg" alt="">
+                            <p>Suggested Video 2</p>
+                        </li>
+                        <li>
+                            <img src="images/thumbnail3.jpg" alt="">
+                            <p>Suggested Video 3</p>
+                        </li>
+                        <li>
+                            <img src="images/thumbnail4.jpg" alt="">
+                            <p>Suggested Video 4</p>
+                        </li>
+                        <li>
+                            <img src="images/thumbnail5.jpg" alt="">
+                            <p>Suggested Video 5</p>
+                        </li>
+                    </ul>
+                </aside>
+            </div>
+
+            <div class="comments-container">
+                <aside>
+                    <ul class="comments">
+                        <li>A comment...</li>
+                        <li>...and another comment!</li>
+                    </ul>
+                </aside>
+            </div>
+        </div>
+    </body>
+</html>
